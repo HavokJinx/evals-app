@@ -1,0 +1,56 @@
+{
+  "title":"Post One PE",
+  "questions":[
+    {"question":"1. Place the three position toggle switch in the normal operating position and demonstrate allowing entrance.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"A. Entry/Exit \"Hardline\" Door Control Panel"},
+    {"question":"2. Magnetically lock every door on the hardline door control panel.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"A. Entry/Exit \"Hardline\" Door Control Panel"},
+    {"question":"3. Demonstrate the individual unlock in the master lock-out mode for any door.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"A. Entry/Exit \"Hardline\" Door Control Panel"},
+
+
+    {"question":"1. What three options does the MSG on Post One have when the alarm is activated?", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"B. Fire Exit Door Control Panel"},
+    {"question":"2. Demonstrate how to cancel the timing sequence.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"B. Fire Exit Door Control Panel"},
+    {"question":"3. Demonstrate how to release the door.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"B. Fire Exit Door Control Panel"},
+
+
+    {"question":"1. Utilize the CU-650 controller to manually adjust the iris of the camera.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"C. Camera Monitor"},
+    {"question":"2. Utilize the CU-650 controller to zoom in on an object.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"C. Camera Monitor"},
+    {"question":"3. Utilize the CU-650 controller to manually cycle through the available cameras.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"C. Camera Monitor"},
+    {"question":"4. Adjust the contrast +5 on any monitor.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"C. Camera Monitor"},
+
+
+    {"question":"1. Demonstrate how to access a partition/space from Post One.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"D. Cinch Protector System"},
+    {"question":"2. Demonstrate how to secure a partition/space from the mounted keypad and associated procedures in Post One.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"D. Cinch Protector System"},
+
+
+    {"question":"1. Demonstrate how to secure a partition/space from the mounted keypad.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"E. Advent Alarm System"},
+    {"question":"2. Demonstrate how to acknowledge the system in post 1.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"E. Advent Alarm System"},
+
+
+    {"question":"1. Demonstrate how to access or secure a partition/space from the mounted keypad and associated procedures in Post One.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"F. High Security Alarm System"},
+
+
+    {"question":"1. Demonstrate how to access or secure a partition/space from the mounted keypad and associated procedures in Post One.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"G. Wells Fargo Alarm System (CU-40)"},
+
+
+    {"question":"1. Demonstrate how to sound and secure the duck and cover alarm.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"H. Selectone Command Unit"},
+    {"question":"2. Demonstrate how to make an announcement in Zone 5 only (have MSG read Internal Defense announcement).", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"H. Selectone Command Unit"},
+
+
+    {"question":"1. Demonstrate how to recall the pendant name that triggered the alarm.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"I. Inovonics Imminent Danger Notification"},
+    {"question":"2. Demonstrate how to reset the system once activated.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"I. Inovonics Imminent Danger Notification"},
+
+
+    {"question":"1. Demonstrate how to purify the system.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"J. AES 6300 Annunciator Panel"},
+    {"question":"2. Demonstrate how to test the red lights and audible alarm.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"J. AES 6300 Annunciator Panel"},
+
+
+    {"question":"1. Explain the steps an MSG must take prior to firing the system.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"L. TG Guard System"},
+    {"question":"2. Demonstrate firing the system.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"L. TG Guard System"},
+
+
+    {"question":"1. Demonstrate how to review video from 1700-1705 yesterday.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"M. VSOC System"},
+    {"question":"2. Demonstrate how to acknowledge an alarm.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"M. VSOC System"},
+
+
+    {"question":"1. Demonstrate how to secure/unsecure a S&G 8400 or 8500 lock.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"N. Locks (MSG gets 3 attempts per lock)"},
+    {"question":"2. Demonstrate how to secure/unsecure a X-09 lock.", "type":"MC", "options":[{"label":"Pass"},{"label":"Fail"}], "category":"N. Locks (MSG gets 3 attempts per lock)"}]
+}
