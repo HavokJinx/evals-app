@@ -1,0 +1,25 @@
+{
+	"title":"stuent List",
+	"students":[
+		{"name":"Chere Thurmon", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Jody Caprio", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Janna Vallance", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Jules Belville", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Kip Cinnamon", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Ramiro Sanluis", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Kenyatta Carlen", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Taneka Gershon", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Darrin Bober", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Elease Wronski", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Jerica Canning", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Dora Claw", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Sylvester Fiscus", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Micheal Lounsbury", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Corina Bogard", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Mellie Hibbitts", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Jo Buford", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Refugio Towles", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Micha Zajac", "rank":"officer","detachment":"default","IA":"default"},
+		{"name":"Levi Womac", "rank":"officer","detachment":"default","IA":"default"}
+	]
+}

@@ -1,3 +1,7 @@
-.question
-	.qlabel {{question}}
-	.answers answer
+
+.col-md-6.span10 {{question}}
+.col-md-6.span2
+	.btn-group
+		| {{#each options}}
+		button.btn.btn-default(type="button",data-val="{{label}}") {{label}}
+		| {{/each}}

@@ -72,6 +72,7 @@ module.exports = function(grunt) {
 		jshint: {
 			files: ['Gruntfile.js', 'public/js/app/**/*.js', '!public/js/app/**/*min.js'],
 			options: {
+				laxcomma:true,
 				globals: {
 					jQuery: true,
 					console: false,
@@ -108,12 +109,13 @@ module.exports = function(grunt) {
 				options: {
 					grunt: true
 				},
-				tasks: ['copy', 'jade', 'jshint']
+				tasks: [ 'jshint', 'copy', 'jade']
 			}
 		},
 		watch:{
 			options:{
-				livereload:true
+				livereload:true,
+				atBegin: true
 			},
 			all:{
 				files:["public/{,**/,**/**/,**/**/**/,**/**/**/**/}*"],
