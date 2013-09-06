@@ -12,6 +12,14 @@ define(['App', 'backbone', 'marionette', 'views/QuestionsView', 'views/DesktopHe
 			var questions = new QuestionsView({collection: questionsColl });
 
 			App.mainRegion.show(questions);
-}
+		},
+		students:function () {
+
+			var questionsColl =new Questions();
+			questionsColl.fetch();
+			var questions = new QuestionsView({collection: questionsColl });
+
+			App.mainRegion.show(questions);
+		}
 	});
 });

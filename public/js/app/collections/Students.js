@@ -10,8 +10,8 @@ define(["jquery","backbone","models/Student"],
 				},
 
 				parse : function(response) {
-					if(response.questions )
-						return response.questions;
+					if(response.students )
+						return response.students;
 					else
 						throw "Error: Question's Collection could not fetch";
 				}
