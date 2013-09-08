@@ -3,14 +3,16 @@
  * Module dependencies.
  */
 
-var express = require('express');
-var routes = require('./routes');
-var user = require('./routes/user');
-var http = require('http');
-var path = require('path');
+var express = require('express'),
+	routes = require('./routes'),
+	app = express(),
+			http = require('http'),
+			path = require('path'),
+			underscore = require("underscore");
 
-var app = express();
-
+app._ = underscore;
+var user = require('./routes/user'),
+		webTemplates = require('./routes/templates')(app);
 // all environments
 app.set('port', process.env.PORT || 3000);
 app.set('views', __dirname + '/views');
@@ -23,19 +25,10 @@ app.use(express.methodOverride());
 app.use(express.cookieParser('your secret here'));
 app.use(express.session());
 // Homepage
-//app.use(function(request, response, next) {
-// TODO: use jade to render directly the views.
-//	if (request.url == "/") {
-//		response.writeHead(200, { "Content-Type": "text/plain" });
-//		response.end("Welcome to the homepage!\n");
-//		// The middleware stops here.
-//	} else {
-//		next();
-//	}
-//});
+
 app.use(app.router);
 app.use(require('stylus').middleware(__dirname + '../public'));//
-app.use(express.static(path.join(__dirname, '../dist')));
+app.use(express.static(path.join(__dirname, '../public')));
 
 // development only
 if ('development' == app.get('env')) {
@@ -44,6 +37,8 @@ if ('development' == app.get('env')) {
 
 app.get('/', routes.index);
 app.get('/users', user.list);
+app.get('/js/app/templates/(:file).html', webTemplates.index );
+console.log( app.routes );
 
 http.createServer(app).listen(app.get('port'), function(){
   console.log('Express server listening on port ' + app.get('port'));
