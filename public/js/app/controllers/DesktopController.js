@@ -1,5 +1,11 @@
-define(['App', 'backbone', 'marionette', 'views/QuestionsView', 'views/DesktopHeaderView', 'collections/Questions'],
-	function (App, Backbone, Marionette, QuestionsView, DesktopHeaderView , Questions) {
+define(['App', 'backbone', 'marionette'
+	, 'views/DesktopHeaderView'
+	, 'views/QuestionsView', 'collections/Questions'
+	, 'views/StudentsView', 'collections/Students'],
+	function (App, Backbone, Marionette
+			, DesktopHeaderView
+			, QuestionsView, Questions
+			,StudentsView, Students) {
 	return Backbone.Marionette.Controller.extend({
 		initialize:function (options) {
 			App.headerRegion.show(new DesktopHeaderView());
@@ -15,11 +21,11 @@ define(['App', 'backbone', 'marionette', 'views/QuestionsView', 'views/DesktopHe
 		},
 		students:function () {
 
-			var questionsColl =new Questions();
-			questionsColl.fetch();
-			var questions = new QuestionsView({collection: questionsColl });
+			var studentssColl =new Students();
+			studentssColl.fetch();
+			var students = new StudentsView({collection: studentssColl });
 
-			App.mainRegion.show(questions);
+			App.mainRegion.show(students);
 		}
 	});
 });

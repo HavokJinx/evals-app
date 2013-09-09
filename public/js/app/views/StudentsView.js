@@ -1,7 +1,7 @@
-define( ['App', 'backbone', 'marionette', 'jquery', 'underscore', 'views/QuestionView', 'template/studentListHeader'],
-		function(App, Backbone, Marionette, $, _ , QuestionView , headerTpl) {
+define( ['App', 'backbone', 'marionette', 'jquery', 'underscore', 'views/StudentView', 'hbs!templates/studentListHeader'],
+		function(App, Backbone, Marionette, $, _ , StrudentView , headerTpl) {
 			return Backbone.Marionette.CompositeView.extend({
-				itemView: QuestionView
+				itemView: StrudentView
 				, template: headerTpl
 				, appendHtml: function(collectionView, itemView){
 					collectionView.$(".body").append(itemView.el);

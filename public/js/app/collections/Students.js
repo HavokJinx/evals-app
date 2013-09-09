@@ -6,7 +6,7 @@ define(["jquery","backbone","models/Student"],
 				model: Student,
 				// TODO: this url should be dinamic depending on what quesitionare the user is looking for.
 				url:function(){
-					return "/data/student.json";
+					return "/data/students.json";
 				},
 
 				parse : function(response) {

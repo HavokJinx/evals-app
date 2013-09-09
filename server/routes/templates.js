@@ -9,7 +9,7 @@ module.exports = function(app){
 
 	this.index = function(req, res){
 		console.log("req");
-		console.dir( req.route );
+		//console.dir( req.route );
 		console.log(directory + req.route.params.file );
     res.render( directory + req.route.params.file , { });
 	};
