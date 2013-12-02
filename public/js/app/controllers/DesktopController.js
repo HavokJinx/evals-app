@@ -26,6 +26,13 @@ define(['App', 'backbone', 'marionette'
 			var students = new StudentsView({collection: studentssColl });
 
 			App.mainRegion.show(students);
+		},
+		questions:function(){
+			var questionsColl =new Questions();
+			questionsColl.fetch();
+			var questions = new QuestionsView({collection: questionsColl });
+			App.mainRegion.show(questions);
 		}
 	});
 });
+
